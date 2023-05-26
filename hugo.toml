@@ -403,11 +403,12 @@ pluralizelisttitles = false
 
 [params]
     email = "info@azodn.org"
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/events/"
     author = "Colbal"
     defaultKeywords = ["azodn",]
-    mainSections = ["blog"]
+    mainSections = ["events"]
     defaultDescription = "AZODN exists to elevate individuals and organizations to their highest potential."
+    banner = "/content/:filename"
 
     # Social media
     # facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -421,42 +422,7 @@ pluralizelisttitles = false
     # latitude = "-12.043333"
     # longitude = "-77.028333"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "azodn"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 50 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - register your account to https://formspree.io/register
-    # - login and create new form
-    # - set your form's endpoint url under 'formspree_action' below
-    # - upload the generated site to your server
-    # - test a dummy email yourself
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io endpoint url
-    # formspree_action = "https://formspree.io/sample/of/endpoint"
-    # contact_form_ajax = false
-
-    # Formspree form supports Google reCAPTCHA Key (type v2).
-    # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
-    #
-    # By default, Formspree use a redirect page for recaptcha widget.
-    # If you use a recaptcha widget in your contact page, you should do next steps.
-    # (if you don't want, skip these steps)
-    #
-    #   1. register your site on Google recaptcha admin page: https://www.google.com/recaptcha/admin
-    #   2. select reCAPTCHA v2 and checkbox widget type.
-    #   3. remember site key and secret key.
-    #   4. enter secret key into "Custom reCAPTCHA Key" field in your Formspree form setting page.
-    #   5. change `enableRecaptchaInContactForm` is to true
-    #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
-    #
-    # enableRecaptchaInContactForm = false
-    # googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>AZODN exists to elevate individuals and organizations to their highest potential.</p>"
     copyright = "Copyright (c) 2023, AZODN - all rights reserved."
@@ -549,7 +515,7 @@ pluralizelisttitles = false
     enable = true
     title = "Events"
     subtitle = ""
-    hide_summary = false
+    hide_summary = true
 
 [params.footer.recent_posts]
     enable = false
