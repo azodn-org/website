@@ -1,4 +1,4 @@
-baseurl = "https://www.azodn.org" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseurl = "https://www.azodn.org" 
 title = "AZODN"
 theme = "azodn"
 languageCode = "en-us"
@@ -17,7 +17,6 @@ paginate = 10
 pluralizelisttitles = false
 
 [menu]
-
 
 # Main menu
 [[menu.main]]
@@ -370,7 +369,7 @@ pluralizelisttitles = false
 #     weight     = 7
 
 
-# Top bar social links menu
+# Top bar social links menu (right side)
 
 [[menu.topbar]]
     weight = 10
@@ -481,7 +480,7 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or info@azodn.org.</p>
       <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:info@azodn.org" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
