@@ -21,6 +21,7 @@
 }
 .home-hero{
   height: 550px;
+  /* TODO find font that matches original */
   font-family: Cabin, sans-serif;
   display: inline-flex;
   overflow: hidden;
@@ -2553,7 +2554,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #footer {
   background: var(--azodn-secondary-color);
-  padding: 50px 0;
+  padding: 25px 0;
   color: #fff;
 }
 #footer h1,
@@ -2651,7 +2652,7 @@ fieldset[disabled] .btn-template-primary.active {
 #copyright {
   background:var(--azodn-primary-color);
   color: #ccc;
-  padding: 50px 0;
+  padding: 10px 0;
   font-size: 12px;
   line-height: 28px;
 }
