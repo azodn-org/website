@@ -408,7 +408,7 @@ pluralizelisttitles = false
     defaultKeywords = ["azodn",]
     mainSections = ["events"]
     defaultDescription = "AZODN exists to elevate individuals and organizations to their highest potential."
-    banner = "/content/:filename"
+    
 
     # Social media
     # facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
