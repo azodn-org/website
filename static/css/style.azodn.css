@@ -8,7 +8,12 @@
   --pagination-bg: #a7dbe5;
   --link-hover-bg: #2c8494;
   --navbar-focus: #67adeb;
+  --azodn-primary-color: #0f4c81;
+  --azodn-secondary-color: #79252E;
+  --azodn-tertiary-color: #B45B38;
 }
+/* homepage start */
+/* TODO make area more responsive */
 @media (max-width:600px){
   .auto-hide{
     display: none;
@@ -29,6 +34,7 @@
 .dynamic-txt h1{
   font-size: 700%;
 }
+/* homepage end */ 
 
 .clearfix:before,
 .clearfix:after,
@@ -263,7 +269,7 @@ ul.list-style-none {
   }
 }
 #top {
-  background: #555555;
+  background: var(--azodn-secondary-color);
   color: #eeeeee;
   padding: 10px 0;
 }
@@ -2546,9 +2552,9 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #555555;
+  background: var(--azodn-secondary-color);
   padding: 50px 0;
-  color: #999999;
+  color: #fff;
 }
 #footer h1,
 #footer h2,
@@ -2638,11 +2644,12 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 25px;
   margin: 0 10px 0 0;
 }
+/* TODO */
 #footer .social a:hover {
   color: var(--primary-accent);
 }
 #copyright {
-  background: #333;
+  background:var(--azodn-primary-color);
   color: #ccc;
   padding: 50px 0;
   font-size: 12px;
@@ -2688,7 +2695,7 @@ fieldset[disabled] .btn-template-primary.active {
     display: none;
   }
 }
-/* Original Boostrap template overwrite */
+/* Original Bootstrap template overwrite */
 /* breadcrumbs */
 .breadcrumb {
   font-family: "Roboto", Helvetica, Arial, sans-serif;

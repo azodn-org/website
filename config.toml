@@ -29,19 +29,28 @@ pluralizelisttitles = false
     url        = "/events"
     weight     = 20
 [[menu.main]]
+    name       = "Join"
+    url        = "/join"
+    weight     = 30
+[[menu.main]]
     name       = "About"
     identifier = "menu.about"
     url        = "/about"
-    weight     = 30
+    weight     = 50
 [[menu.main]]
     name       = "What we do"
     url        = "/about/what-we-do"
-    weight     = 31
+    weight     = 51
     parent     = "menu.about"
 [[menu.main]]
     name       = "Who we are"
     url        = "/about/who-we-are"
-    weight     = 32
+    weight     = 52
+    parent     = "menu.about"
+[[menu.main]]
+    name       = "FAQ"
+    url        = "/about/faq"
+    weight     = 59
     parent     = "menu.about"
 
 # [[menu.main]]
@@ -475,12 +484,12 @@ pluralizelisttitles = false
     #   """
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/events/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or info@azodn.org.</p> <!--
+    text = """<p class="">Contact us on +420 777 555 333 or info@azodn.org.</p> <!--
       <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:info@azodn.org" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p> -->
@@ -492,33 +501,33 @@ pluralizelisttitles = false
     tags = true
     search = true
 
-[params.carouselCustomers]
-    items = 6
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
+# [params.carouselCustomers]
+#     items = 6
+#     auto_play = false
+#     slide_speed = 2000
+#     pagination_speed = 1000
 
-[params.carouselTestimonials]
-    items = 4
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
+# [params.carouselTestimonials]
+#     items = 4
+#     auto_play = false
+#     slide_speed = 2000
+#     pagination_speed = 1000
 
-[params.carouselHomepage]
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more information take a look at the README.
-    enable = true
-    auto_play = true
-    slide_speed = 2000
-    pagination_speed = 1000
+# [params.carouselHomepage]
+#     # All carousel items are defined in their own files. You can find example items
+#     # at 'exampleSite/data/carousel'.
+#     # For more information take a look at the README.
+#     enable = true
+#     auto_play = true
+#     slide_speed = 2000
+#     pagination_speed = 1000
 
-[params.features]
-    enable = true
-    cols = 3 # Default: 3, Available values 2,3,4,6
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more information take a look at the README.
+# [params.features]
+#     enable = true
+#     cols = 3 # Default: 3, Available values 2,3,4,6
+#     # All features are defined in their own files. You can find example items
+#     # at 'exampleSite/data/features'.
+#     # For more information take a look at the README.
 
 # [params.testimonials]
 #     enable = true
