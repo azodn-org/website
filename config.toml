@@ -29,8 +29,8 @@ pluralizelisttitles = false
     url        = "/events"
     weight     = 20
 [[menu.main]]
-    name       = "Join"
-    url        = "/join"
+    name       = "Join Us"
+    url        = "/join-us"
     weight     = 30
 [[menu.main]]
     name       = "About"
@@ -508,7 +508,7 @@ pluralizelisttitles = false
     icon = "fas fa-link"
     title = "Become a member"
     subtitle = "Our members are a diverse group of professionals who value meaningful connections, sharing powerful ideas and continued professional development."
-    link_url = "/join"
+    link_url = "/join-us"
     link_text = "annual membership"
 
 [params.recent_posts]
