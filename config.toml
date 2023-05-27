@@ -56,6 +56,8 @@ pluralizelisttitles = false
     url        = "/about/faq"
     weight     = 59
     parent     = "menu.about"
+    
+# TODO clean out unused items
 
 # [[menu.main]]
 #     name       = "Option 1: Default Page"
