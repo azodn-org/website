@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Join Us on AZODN</title>
+    <link>https://www.azodn.org/join-us/</link>
+    <description>Recent content in Join Us on AZODN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 May 2023 19:01:20 -0700</lastBuildDate><atom:link href="https://www.azodn.org/join-us/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Individual</title>
+      <link>https://www.azodn.org/join-us/individual/</link>
+      <pubDate>Fri, 26 May 2023 17:07:39 -0700</pubDate>
+      
+      <guid>https://www.azodn.org/join-us/individual/</guid>
+      <description>&lt;!DOCTYPE html&gt; </description>
+    </item>
+    
+  </channel>
+</rss>
