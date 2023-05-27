@@ -42,8 +42,13 @@
 .home-hero {
   height: 300px;
   padding-left: 3rem;
+  padding-right: 3rem;
   display: inline-flex;
   overflow: hidden;
+}
+.call-to-action {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .azodn-hero-logo {
   height: 100%;
