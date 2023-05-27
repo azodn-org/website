@@ -42,6 +42,11 @@
                         {{ end }}
 
                         <div id="post-content">
+                          {{ $image := resources.Get (printf "images/%s" .Params.featured_image) }}
+                          {{ with $image }}
+                            <img src="{{ ( $image.Resize "600x q75" ).RelPermalink }}">
+                          {{ end }}
+
                           {{ .Content }}
                         </div>
                         <!-- /#post-content -->

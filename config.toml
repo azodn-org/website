@@ -33,6 +33,10 @@ pluralizelisttitles = false
     url        = "/join-us"
     weight     = 30
 [[menu.main]]
+    name       = "CODA"
+    url        = "/coda"
+    weight     = 40
+[[menu.main]]
     name       = "About"
     identifier = "menu.about"
     url        = "/about"

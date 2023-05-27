@@ -1,0 +1,5 @@
+<div class="text-center">
+  {{ $image := resources.GetMatch (.Get "src") }} <img src="{{ ( $image.Resize
+  "600x q75" ).RelPermalink }}" {{ with .Get "alt" }}alt="{{.}}"{{ else
+  }}alt=""{{ end }}>
+</div>
