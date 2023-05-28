@@ -35,7 +35,11 @@ $keywords) 0 }} <meta name="keywords" content="{{ delimit (uniq $keywords) ", "
   crossorigin="anonymous"
 />
 
-<link href="css/style.azodn.css" rel="stylesheet" id="theme-stylesheet" />
+<!-- Theme stylesheet, if possible do not edit this stylesheet -->
+{{ with .Site.Params.style }} <link href="{{ "css/style" | relURL }}.{{ .
+}}.css" rel="stylesheet" id="theme-stylesheet"> {{ else }} <link href="{{
+"css/style.default.css" | relURL }}" rel="stylesheet" id="theme-stylesheet"> {{
+end }}
 
 <!-- Favicon and Platform touch icons-->
 <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
