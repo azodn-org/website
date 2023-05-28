@@ -1,4 +1,4 @@
-baseurl = "https://www.azodn.org" 
+baseurl = "https://imaginative-pastelito-32138a.netlify.app/" # chang once live
 title = "AZODN"
 theme = "azodn"
 languageCode = "en-us"
