@@ -432,6 +432,7 @@ pluralizelisttitles = false
 
     about_us = "<p>AZODN exists to elevate individuals and organizations to their highest potential.</p>"
     copyright = "Copyright (c) 2023, AZODN - all rights reserved."
+    privacy_policy = "true" # TODO code this into the footer and test
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -509,6 +510,20 @@ pluralizelisttitles = false
 #     title = "Testimonials"
 #     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
+# build this out so that the clint only have to change it here and it will reflect on the main page
+[params.home-hero]
+# hero_image = "img/test.webp"
+# hero_text = "Test hero text"
+# declaration = "Test declaration text"
+# call_to_action = "Test call to action text"
+# button_text = "Button"
+
+[params.recent_posts]
+    enable = true
+    title = "Events"
+    subtitle = ""
+    hide_summary = true
+
 [params.see_more]
     enable = true
     icon = "fas fa-link"
@@ -516,12 +531,6 @@ pluralizelisttitles = false
     subtitle = "Our members are a diverse group of professionals who value meaningful connections, sharing powerful ideas and continued professional development."
     link_url = "/join-us"
     link_text = "annual membership"
-
-[params.recent_posts]
-    enable = true
-    title = "Events"
-    subtitle = ""
-    hide_summary = true
 
 [params.footer.recent_posts]
     enable = false

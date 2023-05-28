@@ -70,16 +70,22 @@
 _________________________________________________________ -->
 
 <div id="copyright">
-    <div class="container">
-        <div class="col-md-12">
+    <div class="row">
+        <div class="col-md-5" style="padding-left: 3rem;">
             {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            {{ .Site.Params.copyright | safeHTML }}
             {{ end }}
-            <a href="/privacy-policy" style="color:#fff;">- Privacy Policy</a>
-            <div class="pull-right">
-              Powered by <a href="https://www.colbal.com" style="color:#fff;">Colbal</a>
-            </div>
         </div>
+        <div class="col-md-3">
+            {{ if isset .Site.Params "privacy_policy" }}
+            <a href="/privacy-policy" style="color:#fff;">Privacy Policy</a>
+            {{ end }}
+        </div>
+        
+        <div class="col-md-4">
+              Powered by <a href="https://www.colbal.com" style="color:#fff;">Colbal</a>
+         </div>
+        
     </div>
 </div>
 <!-- /#copyright -->

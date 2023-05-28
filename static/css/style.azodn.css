@@ -2685,11 +2685,9 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
   line-height: 28px;
 }
-#copyright p {
-  margin: 0;
-}
+
 @media (max-width: 991px) {
-  #copyright p {
+  #copyright {
     float: none !important;
     text-align: center;
     margin-bottom: 10px;
