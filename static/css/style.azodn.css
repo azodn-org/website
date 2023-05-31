@@ -1849,6 +1849,26 @@ fieldset[disabled] .btn-template-primary.active {
   background-attachment: fixed;
   background-size: cover;
 }
+table td {
+  border: 1px solid black;
+}
+.member-dollar-sign {
+  margin-top: 2rem;
+  font-size: 20px;
+  position: absolute;
+  margin-left: -1rem;
+}
+.member-title {
+  font-size: x-large;
+  text-transform: uppercase;
+  color: #fff;
+}
+.member-price {
+  font-size: 80px;
+}
+.frequency {
+  font-size: 20px;
+}
 .bar.color-white h1,
 .bar.color-white h2,
 .bar.color-white h3,
@@ -2674,7 +2694,6 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 25px;
   margin: 0 10px 0 0;
 }
-/* TODO */
 #footer .social a:hover {
   color: var(--primary-accent);
 }
