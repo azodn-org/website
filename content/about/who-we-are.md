@@ -13,3 +13,5 @@ AZODN is a 501(c)6 nonprofit membership organization led by a volunteer Board of
 From those just investigating the world of OD to those that are seasoned professionals, from the valleys to the mountains of Arizona, all are welcome here!
 
 ### Meet our Volunteer Board
+
+{{< board >}}

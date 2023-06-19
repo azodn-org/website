@@ -255,6 +255,89 @@ type="application/rss+xml" title="AZODN">
 <p>AZODN is a 501(c)6 nonprofit membership organization led by a volunteer Board of Directors.</p>
 <p>From those just investigating the world of OD to those that are seasoned professionals, from the valleys to the mountains of Arizona, all are welcome here!</p>
 <h3 id="meet-our-volunteer-board">Meet our Volunteer Board</h3>
+<style>
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .pic-ctn {
+    width: 100vw;
+    height: 200px;
+  }
+
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+</style>
+<div class="pic-ctn">
+  <img
+    src="/img/board/sean-morris-headshot-scaled-300x300.webp"
+    alt=""
+    class="pic"
+  />
+  <img src="img/board/elizabeth-kinsfather-300x300.webp" alt="" class="pic" />
+  <img src="img/board/lori-howard-headshot-300x297.webp" alt="" class="pic" />
+  <img
+    src="img/board/sean-spendlove-headshot-300x300.webp"
+    alt=""
+    class="pic"
+  />
+  <img
+    src="img/board/Shweta-Nawkar-Deokule-headshot-300x300.webp"
+    alt=""
+    class="pic"
+  />
+</div>
+
 
                         </div>
                         

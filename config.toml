@@ -518,6 +518,20 @@ pluralizelisttitles = false
 # call_to_action = "Test call to action text"
 # button_text = "Button"
 
+[params.board]
+    enable = true
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more information take a look at the README.
+    title = "Volunteer Board"
+    subtitle = ""
+[params.clients]
+    enable = true
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more information take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
 [params.recent_posts]
     enable = true
     title = "Events"
