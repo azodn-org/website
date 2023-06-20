@@ -256,86 +256,209 @@ type="application/rss+xml" title="AZODN">
 <p>From those just investigating the world of OD to those that are seasoned professionals, from the valleys to the mountains of Arizona, all are welcome here!</p>
 <h3 id="meet-our-volunteer-board">Meet our Volunteer Board</h3>
 <style>
-  html,
   body {
-    margin: 0;
-    padding: 0;
+    font-family: "Open Sans", sans-serif;
   }
-
-  .pic-ctn {
-    width: 100vw;
-    height: 200px;
-  }
-
-  @keyframes display {
-    0% {
-      transform: translateX(200px);
-      opacity: 0;
-    }
-    10% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    20% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    30% {
-      transform: translateX(-200px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(-200px);
-      opacity: 0;
-    }
-  }
-
-  .pic-ctn {
+  h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
     position: relative;
-    width: 100vw;
-    height: 300px;
-    margin-top: 15vh;
+    margin: 30px 0 60px;
   }
-
-  .pic-ctn > img {
+  h2::after {
+    content: "";
+    width: 100px;
     position: absolute;
-    top: 0;
-    left: calc(50% - 100px);
-    opacity: 0;
-    animation: display 10s infinite;
+    margin: 0 auto;
+    height: 3px;
+    background: #8fbc54;
+    left: 0;
+    right: 0;
+    bottom: -10px;
   }
-
-  img:nth-child(2) {
-    animation-delay: 2s;
+  .col-center {
+    margin: 0 auto;
+    float: none !important;
   }
-  img:nth-child(3) {
-    animation-delay: 4s;
+  .carousel {
+    margin: 50px auto;
+    padding: 0 70px;
   }
-  img:nth-child(4) {
-    animation-delay: 6s;
+  .carousel .item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
   }
-  img:nth-child(5) {
-    animation-delay: 8s;
+  .carousel .item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+  }
+  .carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+  }
+  .carousel .testimonial {
+    padding: 30px 0 10px;
+  }
+  .carousel .overview {
+    font-style: italic;
+  }
+  .carousel .overview b {
+    text-transform: uppercase;
+    color: var(--azodn-primary-color);
+  }
+  .carousel .carousel-control {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    background: none;
+  }
+  .carousel-control i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+  }
+  .carousel .carousel-indicators {
+    bottom: -40px;
+  }
+  .carousel-indicators li,
+  .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 1px 3px;
+    border-radius: 50%;
+  }
+  .carousel-indicators li {
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .carousel-indicators li.active {
+    background: #555;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
   }
 </style>
-<div class="pic-ctn">
-  <img
-    src="/img/board/sean-morris-headshot-scaled-300x300.webp"
-    alt=""
-    class="pic"
-  />
-  <img src="img/board/elizabeth-kinsfather-300x300.webp" alt="" class="pic" />
-  <img src="img/board/lori-howard-headshot-300x297.webp" alt="" class="pic" />
-  <img
-    src="img/board/sean-spendlove-headshot-300x300.webp"
-    alt=""
-    class="pic"
-  />
-  <img
-    src="img/board/Shweta-Nawkar-Deokule-headshot-300x300.webp"
-    alt=""
-    class="pic"
-  />
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-center">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="img-box">
+              <img
+                src="/img/board/sean-morris-headshot-scaled-300x300.webp"
+                alt=""
+              />
+            </div>
+            <p class="testimonial">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu
+              sem tempor, varius quam at, luctus dui. Mauris magna metus,
+              dapibus nec turpis vel, semper malesuada ante. Idac bibendum
+              scelerisque non non purus. Suspendisse varius nibh non aliquet.
+            </p>
+            <p class="overview"><b>Sean Morris</b>, Chair</p>
+          </div>
+          <div class="item">
+            <div class="img-box">
+              <img src="/img/board/elizabeth-kinsfather-300x300.webp" alt="" />
+            </div>
+            <p class="testimonial">
+              Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+              eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus.
+              Pellentesque viverra sagittis quam at mattis. Suspendisse potenti.
+              Aliquam sit amet gravida nibh, facilisis gravida odio.
+            </p>
+            <p class="overview"><b>Elizabeth Kinsfather</b>, Title Here</p>
+          </div>
+          <div class="item">
+            <div class="img-box">
+              <img src="/img/board/rich-toronto.webp" alt="" />
+            </div>
+            <p class="testimonial">
+              Rich has extensive experience building human resource processes,
+              practices, and capabilities in high growth environments and
+              guiding leaders through mergers, acquisitions, restructurings, and
+              other business transformations. Working with Fortune 1000
+              companies enabled him to serve a wide range of organizational
+              functions and leadership levels worldwide. Rich held corporate HR
+              leadership roles in addition to working for multiple consulting
+              firms. His broad industry experience includes professional
+              services, private equity, manufacturing, consumer goods and
+              services, energy, healthcare, insurance, banking, and financial
+              services. <br /><br />Rich has a dual MBA/MOD from Bowling Green
+              State University and is a Prosci Certified Change Practitioner. He
+              also achieved ‘Advanced Certified Personal and Executive Coach’
+              (ICF accredited program through College of Executive Coaching). In
+              addition, Rich has training and project experience with lean six
+              sigma and other continuous improvement methodologies.
+            </p>
+            <p class="overview"><b>Rich Toronto</b>, Treasurer</p>
+          </div>
+          <div class="item">
+            <div class="img-box">
+              <img
+                src="/img/board/sean-spendlove-headshot-300x300.webp"
+                alt=""
+              />
+            </div>
+            <p class="testimonial">
+              Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+              eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus.
+              Pellentesque viverra sagittis quam at mattis. Suspendisse potenti.
+              Aliquam sit amet gravida nibh, facilisis gravida odio.
+            </p>
+            <p class="overview"><b>Sean Spendlove</b>, Title Here</p>
+          </div>
+          <div class="item">
+            <div class="img-box">
+              <img
+                src="/img/board/Shweta-Nawkar-Deokule-headshot-300x300.webp"
+                alt=""
+              />
+            </div>
+            <p class="testimonial">
+              Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+              eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus.
+              Pellentesque viverra sagittis quam at mattis. Suspendisse potenti.
+              Aliquam sit amet gravida nibh, facilisis gravida odio.
+            </p>
+            <p class="overview"><b>Shweta Nawkar Deokule</b>, Title Here</p>
+          </div>
+        </div>
+        
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 
 
