@@ -462,9 +462,8 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="">Contact us on +420 777 555 333 or info@azodn.org.</p> <!--
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:info@azodn.org" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+    text = """<p class="">Contact us at info@azodn.org.</p> <!--
+       <a href="mailto:info@azodn.org" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p> -->
       """
 
