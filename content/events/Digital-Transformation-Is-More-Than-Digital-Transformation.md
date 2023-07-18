@@ -3,7 +3,7 @@ title = "Digital Transformation Is More Than Digital Transformation"
 date = 2023-01-24T17:33:22-07:00
 draft = false
 author = ""
-banner = ""
+
 
 +++
 
