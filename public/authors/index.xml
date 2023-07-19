@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on AZODN</title>
-    <link>https://imaginative-pastelito-32138a.netlify.app/authors/</link>
-    <description>Recent content in Authors on AZODN</description>
+    <title>Authors on Arizona Organization Development Network</title>
+    <link>https://azodn.org/authors/</link>
+    <description>Recent content in Authors on Arizona Organization Development Network</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://imaginative-pastelito-32138a.netlify.app/authors/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://azodn.org/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

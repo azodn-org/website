@@ -44,8 +44,9 @@
 <meta name="theme-color" content="#ffffff" />
 
 
-<link rel="alternate" href="https://imaginative-pastelito-32138a.netlify.app/index.xml"
-type="application/rss+xml" title="AZODN">
+<link rel="alternate" href="https://azodn.org/index.xml"
+type="application/rss+xml" title="Arizona Organization Development Network">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   </head>
 
@@ -229,10 +230,6 @@ type="application/rss+xml" title="AZODN">
           <div class="row">
             <div class="col-md-12">
               <div><h2 id="coda">CODA</h2>
-<div class="text-center">
-   <img src="/images/_hua5cc6a23a3da86e3dccb72146171f15d_1475546_128fd6d075c5b1021a00c055e69b8772.webp" alt="">
-</div>
-
 <p>CODA (Community OD in Action) represents AZODN’s aspirational goal of serving. Focused on the eleemosynary community in the Valley, CODA is a group of organizational development consultants partnering to co-create a more vital and effective community. All services are pro bono.</p>
 <p>For our clients in the non-profit sector, frequently constrained by resource limitations, CODA provides consulting help to boards and executive directors with planning organizational change, aligning operations and strategy, board governance and team development support in order to help the organization achieve its goals.</p>
 <p>For AZODN members, CODA offers an opportunity to “give back” to the community and share with like-minded practitioners.</p>
@@ -337,5 +334,17 @@ type="application/rss+xml" title="AZODN">
 <script src="/js/owl.carousel.min.js"></script>
 
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
   </body>
 </html>

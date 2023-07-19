@@ -45,8 +45,9 @@
 <meta name="theme-color" content="#ffffff" />
 
 
-<link rel="alternate" href="https://imaginative-pastelito-32138a.netlify.app/index.xml"
-type="application/rss+xml" title="AZODN">
+<link rel="alternate" href="https://azodn.org/index.xml"
+type="application/rss+xml" title="Arizona Organization Development Network">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     
   </head>
@@ -415,6 +416,18 @@ type="application/rss+xml" title="AZODN">
 <script src="/js/owl.carousel.min.js"></script>
 
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 
   </body>
 </html>
