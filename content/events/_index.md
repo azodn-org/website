@@ -1,7 +1,6 @@
 +++
-title = "Events"
+title = "Events - Main Page"
 date = 2023-05-26T11:19:42-07:00
 draft = false
 
 +++
-
