@@ -8,7 +8,7 @@ author = ""
 
 ## CODA
 
-{{< img src="images/brainstorming-and-collaborating-for-growth-in-business.webp" >}}
+{{< img src="img/brainstorming-and-collaborating-for-growth-in-business.webp" >}}
 
 CODA (Community OD in Action) represents AZODN’s aspirational goal of serving. Focused on the eleemosynary community in the Valley, CODA is a group of organizational development consultants partnering to co-create a more vital and effective community. All services are pro bono.
 
