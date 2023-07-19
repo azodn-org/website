@@ -12,7 +12,7 @@ public_folder: "img/" # The src attribute for uploaded media will begin with /im
 collections:
   - name: "events" # Used in routes, e.g., /admin/collections/blog
     label: "Events" # Used in the UI
-    folder: "content/events/{{slug}}" # The path to the folder where the documents are stored
+    folder: "content/events" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     media_folder: "content/events/{{slug}}"
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
