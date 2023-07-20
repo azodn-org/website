@@ -262,8 +262,8 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Blurb, name: blurb, widget: text }
-      - file: "site/config.toml"
-        label: Hugo Config
+      - file: "config.toml"
+        label: Site Config
         name: config
         editor:
           preview: false
