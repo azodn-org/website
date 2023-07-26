@@ -23,6 +23,8 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
+      #end of Events collection
+
   - name: "pages"
     label: "Pages"
     files:
@@ -31,8 +33,7 @@ collections:
         name: "home"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Subtitle, name: subtitle, widget: string }
-          - { label: Image, name: image, widget: image }
+          - { label: Image, name: image, widget: image, required: false }
           - {
               label: "Blurb",
               name: blurb,
