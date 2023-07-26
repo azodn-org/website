@@ -6,3 +6,6 @@ layout = ""
 +++
 
 {{< join >}}
+
+[comment]: # ('this page is coded in the "join" short code above.)
+[comment]: # "all changes must be completed in the join.html file."
