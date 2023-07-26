@@ -1,8 +1,13 @@
-+++
-title = "Who We Are"
-draft = false
-layout = "single"
-+++
+---
+title: Who We Are
+draft: false
+layout: single
+description: The Arizona Organization Development Network (AzODN) was founded in
+  1999 by a dedicated group of OD professionals looking to create opportunities
+  to learn, grow, and share together in the Phoenix area. More than 20 years
+  later, we continue to bring these same values to life with quality programming
+  and opportunities to network.
+---
 
 ### About AzODN
 
@@ -15,3 +20,5 @@ From those just investigating the world of OD to those that are seasoned profess
 ### Meet our Volunteer Board
 
 {{< board >}}
+
+[﻿comment]: # (do not delete the above "board")
