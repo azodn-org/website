@@ -1,8 +1,10 @@
-+++
-title = "What We Do"
-draft = false
-layout = "single"
-+++
+---
+title: What We Do
+draft: false
+layout: single
+description: AZODN exists to elevate individuals and organizations to their
+  highest potential.
+---
 
 ### Our Purpose
 
