@@ -55,23 +55,23 @@ collections:
           - { label: "Body", name: body, widget: markdown }
           # end of What We Do
 
+      - file: "content/about/who-we-are.md"
+        label: "Who We Are"
+        name: "who we are"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: SEO Description, name: description, widget: text }
+          - { label: "Body", name: body, widget: markdown }
+          # end of Who We ARe
+
       - file: "content/contact.md"
         label: "Contact Page"
         name: "contact"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Logo, name: logo, widget: image }
           - { label: Body, name: body, widget: markdown }
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+          # end of Contact
+
       - file: "content/coda.md"
         label: "CODA"
         name: "coda"
