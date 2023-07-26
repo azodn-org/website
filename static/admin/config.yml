@@ -103,3 +103,8 @@ collections:
           preview: false
         fields:
           - { label: Site Title for Browser Tab, name: title, widget: string }
+          - {
+              label: Google Analytics tracking code,
+              name: googleAnalytics,
+              widget: string,
+            }
