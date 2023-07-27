@@ -115,4 +115,9 @@ collections:
               label: Number of Posts per page,
               name: paginate,
               widget: number,
+              default: 10,
+              value_type: int,
+              min: 1,
+              max: 20,
+              step: 2,
             }
