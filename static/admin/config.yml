@@ -109,7 +109,7 @@ collections:
               widget: string,
               required: false,
             }
-           - {
+          - {
               label: Number of Posts per page,
               name: paginate,
               widget: number,
