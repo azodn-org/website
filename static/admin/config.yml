@@ -110,6 +110,7 @@ collections:
               required: false,
             }
           - {
+              comment: This field is to determine the number of posts on one page in the "Events",
               label: Number of Posts per page,
               name: paginate,
               widget: number,
