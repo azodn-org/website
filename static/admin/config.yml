@@ -101,8 +101,6 @@ collections:
       - file: "config.toml"
         label: Site Config
         name: config
-        editor:
-        preview: false
         fields:
           - { label: Site Title for Browser Tab, name: title, widget: string }
           - {
