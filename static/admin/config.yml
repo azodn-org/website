@@ -109,4 +109,5 @@ collections:
               label: Google Analytics tracking code,
               name: googleAnalytics,
               widget: string,
+              required: false,
             }
