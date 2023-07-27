@@ -1,4 +1,4 @@
-baseurl = "https://azodn.org" # chang once live
+baseurl = "https://azodn.org" 
 title = "Arizona Organization Development Network"
 theme = "azodn"
 languageCode = "en-us"
