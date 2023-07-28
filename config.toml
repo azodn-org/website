@@ -16,8 +16,6 @@ paginate = 10
 # not pluralize title pages by default
 pluralizelisttitles = false
 
-email = "info@apple.org"
-
 [menu]
 
 # Main menu
@@ -78,7 +76,7 @@ email = "info@apple.org"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [params]
-   # email = "info@azodn.org"
+    email = "info@azodn.org"
     viewMorePostLink = "/events/"
     author = "Colbal"
     defaultKeywords = ["azodn",]
@@ -110,8 +108,8 @@ email = "info@apple.org"
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="">Contact us at {{ $.Site.Params.email }}.</p> <!--
-       <a href="mailto:{{ $.Site.Params.email }}" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+    text = """<p class="">Contact us at info@azodn.org.</p> <!--
+       <a href="mailto:info@azodn.org" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p> -->
       """
 
