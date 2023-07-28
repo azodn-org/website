@@ -121,8 +121,9 @@ collections:
               max: 20,
               step: 2,
             }
-          - { label: Email, name: email, widget: string }
+          - { label: Email, name: params.email, widget: string }
           - label: Params
             name: params
             widget: list
-            field: { label: Email, name: email, widget: string }
+            fields:
+              - { label: Email, name: email, widget: string }
