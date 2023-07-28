@@ -135,3 +135,9 @@ collections:
                   widget: image,
                   required: false,
                 }
+              - {
+                  label: Top Logo (Small Screen),
+                  name: logo_small,
+                  widget: image,
+                  required: false,
+                }
