@@ -125,6 +125,3 @@ collections:
           - label: Params
             name: params
             widget: list
-            params:
-              - { label: Email, name: email, widget: string }
-              - { label: Email, name: email, widget: string }
