@@ -129,3 +129,9 @@ collections:
               - { label: Email, name: email, widget: string }
               - { label: About Us, name: about_us, widget: string }
               - { label: Copyright, name: copyright, widget: string }
+              - {
+                  label: Top Logo (Large Screen),
+                  name: logo,
+                  widget: image,
+                  required: false,
+                }

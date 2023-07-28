@@ -100,7 +100,7 @@ pluralizelisttitles = false
     logo = "img/logo-small.png"
     logo_small = "img/logo.png"
     contact_url = "/contact"
-    address = "" #"
+    address = ""
   
 [permalinks]
     blog = "/events/:year/:month/:day/:filename/"
