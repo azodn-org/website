@@ -16,6 +16,8 @@ paginate = 10
 # not pluralize title pages by default
 pluralizelisttitles = false
 
+email = "info@azodn.org"
+
 [menu]
 
 # Main menu
@@ -76,7 +78,7 @@ pluralizelisttitles = false
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [params]
-    email = "info@azodn.org"
+   # email = "info@azodn.org"
     viewMorePostLink = "/events/"
     author = "Colbal"
     defaultKeywords = ["azodn",]
