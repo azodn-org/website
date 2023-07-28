@@ -125,3 +125,4 @@ collections:
           - label: Params
             name: params
             widget: list
+            field: { label: Email, name: email, widget: string }
