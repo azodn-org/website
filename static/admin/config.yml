@@ -122,7 +122,7 @@ collections:
               step: 2,
             }
           - { label: Email, name: email, widget: string }
-          - label: Params
+          - label: Site Parameters
             name: params
             widget: object
             fields:
