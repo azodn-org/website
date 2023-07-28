@@ -127,3 +127,5 @@ collections:
             widget: object
             fields:
               - { label: Email, name: email, widget: string }
+              - { label: About Us, name: about_us, widget: string }
+              - { label: Copyright, name: copyright, widget: string }
