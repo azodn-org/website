@@ -12,7 +12,7 @@ baseurl = "https://azodn.org"
 [params]
 logo_text = "AZODN"
 mainSections = ["events"]
-copyright = "Copyright (c) 2023, AZODN"
+copyright = "Copyright (c) 2023, AZODN - all rights reserved"
 date_format = "January 2, 2006"
 privacy_policy = "true"
 defaultKeywords = ["azodn"]
