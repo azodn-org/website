@@ -3,7 +3,7 @@ title = "Elements of the Navy's SEAL Teams That Have Value to Any Organization"
 date = 2023-03-07T17:36:50-07:00
 draft = false
 author = ""
-banner = "/img/az-desert-dusk.webp"
+banner = "img/az-desert-dusk.webp"
 
 +++
 
