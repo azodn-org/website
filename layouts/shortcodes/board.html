@@ -106,7 +106,7 @@ isset .Site.Data "board" }} {{ if gt (len .Site.Data.board) 0 }}
         <div class="carousel-inner">
           <!-- -->
           {{ range .Site.Data.board }}
-          <div class="item active">
+          <div class="item">
             <div class="img-box">
               <img src="/{{ .photo }}" alt="{{ .name }}" />
             </div>
@@ -115,8 +115,6 @@ isset .Site.Data "board" }} {{ if gt (len .Site.Data.board) 0 }}
           </div>
           {{ end }}
           <!-- -->
-        ss="overview"><b>Sean Morris</b>, Chair</p>
-          </div>
 
           <!-- Carousel controls -->
           <a class="carousel-control left" href="#myCarousel" data-slide="prev">
