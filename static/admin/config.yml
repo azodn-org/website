@@ -142,7 +142,7 @@ collections:
   - name: "board_members"
     label: "Board members"
     files:
-      - file: "board/chair.yml"
+      - file: "content/board/chair.yml"
         label: Chair
         name: chair
         - { label: First and Last Name, name: name, widget: string }
