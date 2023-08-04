@@ -104,9 +104,11 @@ isset .Site.Data "board" }} {{ if gt (len .Site.Data.board) 0 }}
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
+         
+        
           <!-- -->
-          {{ range .Site.Data.board }}
-          <div class="item">
+          {{ range .Site.Data.board}}
+          <div class="item{{ if eq .title "Chair" }} active{{ end }}">
             <div class="img-box">
               <img src="/{{ .photo }}" alt="{{ .name }}" />
             </div>
