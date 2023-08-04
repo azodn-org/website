@@ -141,7 +141,7 @@ collections:
 
   - name: "board_members"
     label: "Board members"
-    folder: "board"
+    folder: "data/board"
     create: true
     slug: "{{title}}"
     fields:
