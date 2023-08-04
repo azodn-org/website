@@ -145,7 +145,7 @@ collections:
     create: true
     slug: "{{title}}"
     fields:
-      - { label: Position, name: position, widget: string }
+      - { label: Position, name: title, widget: string }
       - { label: First and Last Name, name: name, widget: string }
       - { label: Photo, name: photo, widget: image, required: false }
       - { label: Short Bio, name: bio, widget: markdown }
