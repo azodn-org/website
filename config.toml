@@ -28,6 +28,7 @@ address = ""
 defaultDescription = "AZODN exists to elevate individuals and organizations to their highest potential."
 dropdown_mouse_over = false
 email = "info@azodn.org"
+board = true
 
 [params.see_more]
 enable = true
