@@ -144,7 +144,7 @@ collections:
     folder: "board"
     create: true
     slug: "{{title}}"
-    files:
+    fields:
       - { label: Position, name: position, widget: string }
       - { label: First and Last Name, name: name, widget: string }
       - { label: Photo, name: photo, widget: image, required: false }
