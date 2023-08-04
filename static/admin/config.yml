@@ -149,3 +149,10 @@ collections:
           - { label: First and Last Name, name: name, widget: string }
           - { label: Photo, name: photo, widget: image, required: false }
           - { label: Short Bio, name: bio, widget: markdown }
+      - file: "content/board/treasurer.yml"
+        label: Treasurer
+        name: treasurer
+        fields:
+          - { label: First and Last Name, name: name, widget: string }
+          - { label: Photo, name: photo, widget: image, required: false }
+          - { label: Short Bio, name: bio, widget: markdown }
