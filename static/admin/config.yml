@@ -143,6 +143,7 @@ collections:
     label: "Board members"
     folder: "data/board"
     create: true
+    extension: yaml
     slug: "{{title}}"
     fields:
       - { label: Position, name: title, widget: string }
