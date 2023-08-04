@@ -30,7 +30,7 @@ dropdown_mouse_over = false
 email = "info@azodn.org"
 
 [params.board]
-board = true
+    enable = true
 
 [params.see_more]
 enable = true

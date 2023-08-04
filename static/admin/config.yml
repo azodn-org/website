@@ -138,12 +138,6 @@ collections:
                   widget: image,
                   required: false,
                 }
-              - {
-                  label: Board on Who We Are page,
-                  name: board,
-                  widget: boolean,
-                  default: true,
-                }
 
   - name: "board_members"
     label: "Board members"
