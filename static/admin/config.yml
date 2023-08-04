@@ -140,11 +140,11 @@ collections:
                 }
 
   - name: "board_members"
-      label: "Board members"
-      files:
-        - file: "board/chair.yml"
-          label: Chair
-          name: chair
-          - { label: First and Last Name, name: name, widget: string }
-          - { label: Photo, name: photo, widget: image, required: false }
-          - { label: Short Bio, name: bio, widget: markdown }
+    label: "Board members"
+    files:
+      - file: "board/chair.yml"
+        label: Chair
+        name: chair
+        - { label: First and Last Name, name: name, widget: string }
+        - { label: Photo, name: photo, widget: image, required: false }
+        - { label: Short Bio, name: bio, widget: markdown }
