@@ -141,32 +141,11 @@ collections:
 
   - name: "board_members"
     label: "Board members"
+    folder: "board"
+    create: true
+    slug: "{{title}}"
     files:
-      - file: "content/board/chair.yml"
-        label: Chair
-        name: chair
-        fields:
-          - { label: First and Last Name, name: name, widget: string }
-          - { label: Photo, name: photo, widget: image, required: false }
-          - { label: Short Bio, name: bio, widget: markdown }
-      - file: "content/board/vice-chair.yml"
-        label: Vice Chair
-        name: vice-chair
-        fields:
-          - { label: First and Last Name, name: name, widget: string }
-          - { label: Photo, name: photo, widget: image, required: false }
-          - { label: Short Bio, name: bio, widget: markdown }
-      - file: "content/board/treasurer.yml"
-        label: Treasurer
-        name: treasurer
-        fields:
-          - { label: First and Last Name, name: name, widget: string }
-          - { label: Photo, name: photo, widget: image, required: false }
-          - { label: Short Bio, name: bio, widget: markdown }
-      - file: "content/board/secretary.yml"
-        label: Secretary
-        name: secretary
-        fields:
-          - { label: First and Last Name, name: name, widget: string }
-          - { label: Photo, name: photo, widget: image, required: false }
-          - { label: Short Bio, name: bio, widget: markdown }
+      - { label: Position, name: position, widget: string }
+      - { label: First and Last Name, name: name, widget: string }
+      - { label: Photo, name: photo, widget: image, required: false }
+      - { label: Short Bio, name: bio, widget: markdown }
