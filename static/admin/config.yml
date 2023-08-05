@@ -141,11 +141,7 @@ collections:
                   widget: image,
                   required: false,
                 }
-          - label: Top Bar Parameters
-            name: params.topbar
-            widget: object
-            fields:
-              - { label: Top Bar, name: text, widget: text }
+
   - name: "board_members"
     label: "Board members"
     folder: "data/board"
