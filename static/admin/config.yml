@@ -15,6 +15,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: SEO Description, name: description, widget: text }
       - { label: "Event Date", name: "date", widget: "datetime" }
       - {
           label: "Featured Image",
@@ -32,8 +33,11 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image, required: false }
+          - {
+              label: Title (Name of Home page tab),
+              name: title,
+              widget: string,
+            }
           - { label: SEO Description, name: description, widget: text }
         #end of Home page
 
@@ -96,7 +100,6 @@ collections:
         label: Site Config
         name: config
         fields:
-          - { label: Site Title for Browser Tab, name: title, widget: string }
           - {
               label: Google Analytics tracking code,
               name: googleAnalytics,
