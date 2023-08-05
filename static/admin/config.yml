@@ -145,7 +145,7 @@ collections:
             name: params.topbar
             widget: object
             fields:
-              - { label: Top Bar, name: enable, widget: boolean, default: true }
+              - { label: Top Bar, name: text, widget: text }
   - name: "board_members"
     label: "Board members"
     folder: "data/board"
