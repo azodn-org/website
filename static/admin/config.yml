@@ -141,7 +141,16 @@ collections:
                   widget: image,
                   required: false,
                 }
-
+                - label: Site Parameters
+                  name: params.topbar
+                  widget: object
+                  fields:
+                    - {
+                      label: Top Bar,
+                      name: enable,
+                      widget: boolean,
+                      default: true
+                      }
   - name: "board_members"
     label: "Board members"
     folder: "data/board"
