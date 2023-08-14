@@ -111,11 +111,6 @@ url = "/about/who-we-are"
 weight = 52
 parent = "menu.about"
 
-[[menu.main]]
-name = "FAQ"
-url = "/about/faq"
-weight = 59
-parent = "menu.about"
 
 [[menu.topbar]]
 weight = 20
