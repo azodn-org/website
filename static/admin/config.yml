@@ -41,15 +41,6 @@ collections:
           - { label: SEO Description, name: description, widget: text }
         #end of Home page
 
-      - file: "content/about/faq.md"
-        label: "FAQ"
-        name: "faq"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: SEO Description, name: description, widget: text }
-          - { label: "Body", name: body, widget: markdown }
-        # end of FAQ
-
       - file: "content/about/what-we-do.md"
         label: "What We Do"
         name: "what we do"
