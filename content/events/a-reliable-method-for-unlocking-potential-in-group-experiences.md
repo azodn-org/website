@@ -5,7 +5,7 @@ description: Jeremy Reisig is the Head Of Admissions for XCHANGE, a facilitation
   training company dedicated to teaching change agents how to unlock human
   potential at scale.
 date: 2023-04-20T23:25:16.365Z
-banner: img/android-chrome-192x192.png
+banner: img/jeremy-reisig-event.png
 ---
 
 04/20/2023, 11:30 AM – 1:30 PM @ Virtual (Zoom)
