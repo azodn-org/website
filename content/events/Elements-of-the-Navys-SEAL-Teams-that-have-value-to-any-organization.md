@@ -1,11 +1,11 @@
-+++
-title = "Elements of the Navy's SEAL Teams That Have Value to Any Organization"
-date = 2023-03-07T17:36:50-07:00
-draft = false
-author = ""
-banner = "img/az-desert-dusk.webp"
-
-+++
+---
+title: Elements of the Navy's SEAL Teams That Have Value to Any Organization
+date: 2023-03-08T00:36:50.000Z
+draft: false
+author: ""
+description: "Navy Seal elements that add value to any organization. "
+banner: img/seal-team-elements.png
+---
 
 Fundamentals: Elements of the Navy's SEAL Teams that have value to any organization
 
