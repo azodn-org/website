@@ -1,11 +1,11 @@
-+++
-title = "Digital Transformation Is More Than Digital Transformation"
-date = 2023-01-24T17:33:22-07:00
-draft = false
-author = ""
-
-
-+++
+---
+title: Digital Transformation Is More Than Digital Transformation
+date: 2023-01-25T00:33:22.000Z
+draft: false
+author: ""
+description: Digital transformation is more than digital transformation
+banner: img/digital-transformation.png
+---
 
 Digital Transformation Is More Than Digital Transformation featuring Mark LaScola and David Casey
 
