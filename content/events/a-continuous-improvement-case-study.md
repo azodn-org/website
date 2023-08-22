@@ -1,11 +1,17 @@
-+++
-title = "A Continuous Improvement Case Study"
-date = 2023-08-21T19:10:53-07:00
-draft = false
-author = ""
-description = "Join us for a discussion about some business improvement initiatives at Sunstate Equipment, a well-respected national equipment rental company based in Phoenix.  We’ll talk about the evolution of our continual improvement efforts, challenges we faced, and various OD models and tools that were used.  We will also share the outcomes and lessons learned.  This will be a practical session co-facilitated by an internal OD practitioner, a business improvement expert, and a business leader."
-banner = "img/screenshot-2023-08-21-141522.png"
-+++
+---
+title: A Continuous Improvement Case Study
+date: 2023-09-28T02:18:11.968Z
+draft: false
+author: ""
+description: Join us for a discussion about some business improvement
+  initiatives at Sunstate Equipment, a well-respected national equipment rental
+  company based in Phoenix.  We’ll talk about the evolution of our continual
+  improvement efforts, challenges we faced, and various OD models and tools that
+  were used.  We will also share the outcomes and lessons learned.  This will be
+  a practical session co-facilitated by an internal OD practitioner, a business
+  improvement expert, and a business leader.
+banner: img/screenshot-2023-08-21-141522.png
+---
 
 Would you like to learn about a real-life example of process improvement that yielded actual results? Join us for a discussion about some business improvement initiatives at Sunstate Equipment, a well-respected national equipment rental company based in Phoenix. We’ll talk about the evolution of our continual improvement efforts, challenges we faced, and various OD models and tools that were used. We will also share the outcomes and lessons learned. This will be a practical session co-facilitated by an internal OD practitioner, a business improvement expert, and a business leader.
 
