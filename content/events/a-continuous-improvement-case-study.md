@@ -8,7 +8,7 @@ description: Join us for a discussion about some business improvement
   were used.  We will also share the outcomes and lessons learned.  This will be
   a practical session co-facilitated by an internal OD practitioner, a business
   improvement expert, and a business leader.
-date: 2023-09-29T00:30:05.149Z
+date: 2023-09-28T00:30:05.149Z
 banner: img/screenshot-2023-08-21-141522.png
 ---
 
