@@ -1,6 +1,6 @@
 ---
 title: A Continuous Improvement Case Study
-date: 2023-09-28T02:18:11.968Z
+date: 2023-08-22T02:18:11.968Z
 draft: false
 author: ""
 description: Join us for a discussion about some business improvement
