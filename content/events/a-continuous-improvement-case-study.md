@@ -1,7 +1,7 @@
 ---
 draft: false
 title: A Continuous Improvement Case Study
-eventDate: 2023-09-28T00:30:00.000Z
+eventDate: 2023-09-28T01:30:00.000Z
 author: ""
 description: Join us for a discussion about some business improvement
   initiatives at Sunstate Equipment, a well-respected national equipment rental
