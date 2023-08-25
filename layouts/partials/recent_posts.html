@@ -20,6 +20,12 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="box-image-text blog">
                         <div class="top">
+                            <h3>
+                                {{ if .Params.eventDate }}
+                                {{ dateFormat .Site.Params.date_format .Params.eventDate }}
+
+                                {{ end }}
+                            </h3>
                             <div class="image" style="overflow:hidden">
                                 {{ if isset .Params "banner" }}
                                 <img src="{{ .Params.banner }}" class="img-responsive" alt="" >

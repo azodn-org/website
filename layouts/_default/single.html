@@ -36,12 +36,24 @@
                               {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
                                   {{ $createdAt = replace $createdAt $month (i18n $month) }}
                               {{ end }}
+                              Published on 
+                              <br>
                               {{ $createdAt }}
                             {{ end }}
                           </p>
                         {{ end }}
 
                         <div id="post-content">
+                          <h3>
+                          {{ if .Params.eventDate }}Event Date: 
+                          {{ dateFormat .Site.Params.date_format .Params.eventDate }}
+
+                          {{ end }} 
+                          {{ if .Params.eventPlace }}
+                          <br>
+                          {{ .Params.eventPlace }}
+                          {{ end }}
+                        </h3>
                           {{ $image := resources.Get (printf "images/%s" .Params.featured_image) }}
                           {{ with $image }}
                             <img src="{{ ( $image.Resize "600x q75" ).RelPermalink }}">
