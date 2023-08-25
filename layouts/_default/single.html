@@ -54,7 +54,7 @@
                           {{ .Params.eventPlace }}
                           {{ end }}
                         </h3>
-                          {{ $image := resources.Get (.Params.banner) }}
+                          {{ $image := resources.Get (printf "%s" .Params.banner) }}
                           {{ with $image }}
                             <img src="{{ ( $image.Resize "600x q75" ).RelPermalink }}">
                           {{ end }}
