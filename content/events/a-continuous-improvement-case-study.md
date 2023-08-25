@@ -1,8 +1,8 @@
 ---
 title: A Continuous Improvement Case Study
 date: 2023-08-22T02:18:11.968Z
-eventDate: 2023-09-10T02:18:11.968Z
-eventPlace: Virtual
+eventDate: 2023-09-27T02:18:11.968Z
+eventPlace: In-Person
 draft: false
 author: ""
 description: Join us for a discussion about some business improvement
