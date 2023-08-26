@@ -46,7 +46,7 @@
                         <div id="post-content">
                           <h3>
                           {{ if .Params.eventDate }}Event Date: 
-                          {{ dateFormat .Site.Params.date_format .Params.eventDate }}
+                          {{ time.Format .Site.Params.date_format .Params.eventDate }}
 
                           {{ end }} 
                           {{ if .Params.eventPlace }}
