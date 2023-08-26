@@ -15,13 +15,19 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          time_format: false,
+        }
       - { label: SEO Description, name: description, widget: text }
       - {
           label: "Date of Event",
           name: "eventDate",
           widget: "datetime",
           date_format: true,
+          time_format: false,
         }
       - {
           label: "Event Place - 'Virtual' or enter the location",
