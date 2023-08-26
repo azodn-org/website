@@ -1,7 +1,7 @@
 ---
 draft: false
 title: A Continuous Improvement Case Study
-eventDate: 2023-09-28T01:30:00.000Z
+eventDate: 2023-09-27T01:30:00.000Z
 author: ""
 description: Join us for a discussion about some business improvement
   initiatives at Sunstate Equipment, a well-respected national equipment rental
@@ -14,6 +14,7 @@ date: 2023-08-22T02:18:11.968Z
 eventPlace: In person @ Sunstate Equipment, 5520 East Washington Street, Phoenix, AZ 85034
 banner: img/screenshot-2023-08-21-141522.png
 ---
+
 R﻿egister for the event by clicking [here](https://mp.gg/bx93geyjpx)
 
 Would you like to learn about a real-life example of process improvement that yielded actual results? Join us for a discussion about some business improvement initiatives at Sunstate Equipment, a well-respected national equipment rental company based in Phoenix. We’ll talk about the evolution of our continual improvement efforts, challenges we faced, and various OD models and tools that were used. We will also share the outcomes and lessons learned. This will be a practical session co-facilitated by an internal OD practitioner, a business improvement expert, and a business leader.
