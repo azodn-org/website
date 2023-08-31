@@ -12,7 +12,7 @@ description: Join us for a discussion about some business improvement
   a practical session co-facilitated by an internal OD practitioner, a business
   improvement expert, and a business leader.
 eventPlace: In person @ Sunstate Equipment, 5520 East Washington Street, Phoenix, AZ 85034
-banner: img/screenshot-2023-08-21-141522.png
+banner: img/sunstate-with-student-pricing-.png
 ---
 
 Register for the event by clicking [here](https://mp.gg/bx93geyjpx)
