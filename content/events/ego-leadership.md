@@ -14,7 +14,7 @@ description: Discover the subtle ways ego can unexpectedly surface in your
 eventDate: 2023-10-19T20:22:48.419Z
 eventPlace: Location: Arizona State University SkySong 1475 North Scottsdale
   Road, Suite 200 Scottsdale AZ 85257
-banner: img/ego-leadership-flyer-2-.png
+banner: img/ego-leadership-azodn-flyer.png
 ---
 Register [here](https:/www.memberplanet.com/events/azodn/egoandleadership).
 
