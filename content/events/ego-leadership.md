@@ -16,7 +16,7 @@ eventPlace: Location: Arizona State University SkySong 1475 North Scottsdale
   Road, Suite 200 Scottsdale AZ 85257
 banner: img/ego-leadership-azodn-flyer.png
 ---
-Register [here](https:/www.memberplanet.com/events/azodn/egoandleadership).
+Register [HERE. ](https://mp.gg/zamjz6r)
 
 When Ego Shows Up Unexpectedly at Work with Speaker, Karen Main, Innovations in Training.
 
