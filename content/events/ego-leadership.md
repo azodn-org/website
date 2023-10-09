@@ -23,4 +23,4 @@ What are some of the ways that ego shows up at work? We may recognize it in othe
 \
 Karen Main is an award-winning author, speaker, trainer, and consultant specializing in leadership and team development. She is the President of Innovations in Training, a consulting company focused on building strong leaders, teams, and organizations. Karen earned her academic credentials from the University of Denver (PhD, ABD, MA Sociology) and holds numerous certifications including Advanced Certification in Emergenetics, Int. Her first book, Pitfalls and Possibilities: A Leadership Fable, earned Bronze in the Business Fable category in the 2022 Axiom Business Book Awards and was described by a judge in the 2022 Writer’s Digest awards as “a must read” in the leadership genre. A recent transplant from Colorado to Arizona, Karen enjoys exploring the beauty of her new home state. When she’s not teaching speaking or writing, she’s an amateur golfer, aspiring songwriter, and unregular swimmer who is always on the hunt for amazing tacos.
 
-Register [here](https:/www.memberplanet.com/events/azodn/egoandleadership).
+Register [here](https://mp.gg/zamjz6r).
