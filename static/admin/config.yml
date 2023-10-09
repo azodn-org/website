@@ -34,11 +34,7 @@ collections:
           name: "eventPlace",
           widget: "string",
         }
-        - {
-          label: "Event Link",
-          name: "eventURL",
-          widget: "string",
-        }
+      - { label: "Event Link", name: "eventURL", widget: "string" }
       - {
           label: "Featured Image",
           name: "banner",
