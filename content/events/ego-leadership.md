@@ -14,12 +14,9 @@ description: Discover the subtle ways ego can unexpectedly surface in your
 eventDate: 2023-10-19T20:22:48.419Z
 eventPlace: Location: Arizona State University SkySong 1475 North Scottsdale
   Road, Suite 200 Scottsdale AZ 85257
-banner: img/ego-leadership-azodn-flyer.png
 eventURL: https://mp.gg/zamjz6r
+banner: img/ego-leadership-azodn-flyer.png
 ---
-
-Register [HERE. ](https://mp.gg/zamjz6r)
-
 When Ego Shows Up Unexpectedly at Work with Speaker, Karen Main, Innovations in Training.
 
 What are some of the ways that ego shows up at work? We may recognize it in others, but do we recognize when ego is our own driver? While a certain amount of self-esteem (and even hubris) is necessary at times, ego can be destructive to our credibility as a leader and disruptive to our team’s morale. Using case studies and examples from her book, Karen Main will lead us in a discussion of the signs that ego is driving us (or our client!) and how to address it.\
