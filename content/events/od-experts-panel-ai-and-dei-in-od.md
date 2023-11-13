@@ -14,7 +14,7 @@ description: >-
   Kimberly Morse, a seasoned Organizational Development consultant, will explore DEI and organization development. As lead author of "Diversity in the Workplace: What Most Organizations get Wrong, and How to Get it Right," Dr. Morse is a certified expert in Predictive Index assessments. With a focus on higher education and healthcare, she integrates data analytics and people analytics into her practice. Don't miss this opportunity to gain insights from these experts shaping the future of organizational development!
 eventDate: 2023-11-29T17:51:30.590Z
 eventPlace: Virtual
-eventURL: https:/www.memberplanet.com/events/azodn/panelonaianddeiinod
+eventURL: www.memberplanet.com/events/azodn/panelonaianddeiinod
 banner: img/_ai-and-dei-in-od-azodn-flyer-1-.png
 ---
 Featured on our panel are Alan Landers, MHRD, and Kimberly Morse, PHD, SHRM-CP.\
